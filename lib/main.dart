@@ -1,19 +1,21 @@
 import 'package:flutter/material.dart';
+import 'package:match_iq/utils/theme/app_theme.dart';
 import 'package:match_iq/views/screens/home_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const MatchIqApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class MatchIqApp extends StatelessWidget {
+  const MatchIqApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      title: 'Match-Iq',
+      theme: AppTheme.lightTheme,
+      home: const HomeView(),
     );
   }
 }
