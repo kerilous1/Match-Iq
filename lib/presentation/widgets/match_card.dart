@@ -2,8 +2,8 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
-import '../../utils/app_colors.dart';
-import '../../utils/app_text_styles.dart';
+import '../../core/utils/app_colors.dart';
+import '../../core/utils/app_text_styles.dart';
 
 //
 enum MatchStatus { notStarted, live, finished }
