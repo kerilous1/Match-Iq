@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../utils/app_colors.dart';
+import '../../core/utils/app_colors.dart';
 import '../widgets/match_card.dart';
 
 class HomeView extends StatelessWidget {

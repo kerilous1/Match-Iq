@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:match_iq/utils/theme/app_theme.dart';
-import 'package:match_iq/views/screens/home_screen.dart';
+import 'package:match_iq/core/utils/theme/app_theme.dart';
+import 'package:match_iq/presentation/screens/home_screen.dart';
 
 void main() {
   runApp(const MatchIqApp());
